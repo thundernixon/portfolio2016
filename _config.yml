@@ -10,8 +10,8 @@ title: Stephen Nixon
 email: stephen@thundernixon.com
 description: > # this means to ignore newlines until "baseurl:"
   This is the portfolio of Stephen Thunder Nixon, product / identity / type / graphic designer.
-baseurl: "/portfolio2016" # the subpath of your site, e.g. /blog
-url: "http://thundernixon.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://thundernixon.github.io/portfolio2016" # the base hostname & protocol for your site
 twitter_username: thundernixon
 github_username:  thundernixon
 
