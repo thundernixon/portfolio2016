@@ -14,4 +14,4 @@ categories: jekyll build
 
 * Use more pictures, fewer words
 * A portfolio post is not a blog post
-* It can be a fun design challenge to make a portfolio with a genre-pushing design, but good luck going against the design culture of minimalism when you're trying to get work
+* It can be a fun design challenge to make a portfolio with a genre-pushing design, but good luck going against the design culture of minimalism-above-all-else when you're showing your site to others
