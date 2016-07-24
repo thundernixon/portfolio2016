@@ -7,7 +7,7 @@ categories: jekyll build
 
 # It was time for an update.
 
-[My prior portfolio](http://thundernixon.com){:target="\_blank"} was fun to build with Wordpress and Sage, but it clearly was working.
+[My prior portfolio](http://thundernixon.com){:target="\_blank"} was fun to build with Wordpress and Sage, but it was clearly  not working.
 
 
 <em>A few things I learned from my last portfolio: </em>
