@@ -4,22 +4,16 @@ layout: default
 
 <div class="home">
 
-  <!-- <h1 class="page-heading">Posts</h1> -->
+<!-- {% assign first_post = site.posts.first %}
+{{ first_post.content }}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+{% include pagination.html %} -->
 
-        <h2>
-          <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> -->
-          <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-
-        </h2>
-      </li>
+  <div class="blog-index">
+    {% for post in site.posts offset:1 limit:1 %}
     {% endfor %}
-  </ul>
+    {% include post_detail.html %}
+  </div>
 
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
 </div>
