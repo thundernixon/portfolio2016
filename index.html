@@ -4,10 +4,10 @@ layout: default
 
 <div class="home">
 
-<!-- {% assign first_post = site.posts.first %}
+{% assign first_post = site.posts.first %}
 {{ first_post.content }}
+<div>{% include pagination.html %}</div>
 
-{% include pagination.html %} -->
 
   <div class="blog-index">
     {% for post in site.posts offset:1 limit:1 %}
