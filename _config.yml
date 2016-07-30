@@ -24,3 +24,10 @@ permalink: pretty
 #   sources:
 #     - _assets
 #     - _assets/fonts
+
+gems: [jekyll-paginate]
+paginate: 1
+
+collections:
+- work
+  output: true

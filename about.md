@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 I love to collaborate, design useful digital products, create visual identities, draw letters, experiment with code, see new places, and learn new things.
@@ -26,4 +26,4 @@ Sans-serif type: Warehouse Gothic (designed and built by me!)
 
 All content on this site has been designed, created, photographed, written, and coded (or assembled from existing code, libraries, plugins, etc) by me, unless otherwise noted.
 
-This site is built with Jekyll.
+This site is built with [Jekyll](https://jekyllrb.com/). 🤘
