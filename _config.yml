@@ -29,5 +29,5 @@ gems: [jekyll-paginate]
 paginate: 1
 
 collections:
-- work
-  output: true
+  work:
+    output: true

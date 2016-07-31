@@ -1,0 +1,10 @@
+<ul class="post-list">
+  {% for work in site.work %}
+    <li>
+      <h2>
+        <a class="post-link" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }}</a>
+
+      </h2>
+    </li>
+  {% endfor %}
+</ul>
