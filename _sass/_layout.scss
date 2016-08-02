@@ -21,7 +21,13 @@
       .site-nav {
         top: 0;
         //line-height: 1em;
-        margin-right: 0px;
+
+      }
+
+    @media (max-width: $on-palm) {
+        span {
+          display: none;
+        }
       }
 
 
