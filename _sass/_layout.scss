@@ -8,18 +8,27 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    @media (max-width: $on-big-laptop) {
+      background: #fff;
+      height: 40px;
+      width: 100%;
+      position: fixed;
+
+      .site-title {
+        top: 4px;
+      }
+      .site-nav {
+        top: 0;
+        //line-height: 1em;
+        margin-right: 0px;
+      }
+
+
+    }
 }
 
-a {
-  .appear-on-hover {
-    opacity: 0;
-    transition: $quick-transition;
-  }
-  &:hover .appear-on-hover {
-    opacity: 1;
-    transition: $quick-transition;
-  }
-}
+
 
 .hover-outline{
   padding: 1em 1em;
@@ -118,6 +127,25 @@ a {
     // }
 }
 
+a {
+  .appear-on-hover {
+    opacity: 0;
+    transition: $quick-transition;
+  }
+
+  // &:hover #icon-blog, &:hover #icon-menu, &:hover #icon-info {
+    // fill:$brand-color;
+    // transition: $quick-transition;
+  // }
+
+  &:hover .appear-on-hover {
+    opacity: 1;
+    transition: $quick-transition;
+    // color: $brand-color;
+
+
+  }
+}
 
 
 /**
@@ -194,7 +222,7 @@ a {
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: (2 * $spacing-unit) 0;
 }
 
 .page-heading {
@@ -207,6 +235,9 @@ a {
 
     > li {
         margin-bottom: $spacing-unit;
+    }
+    a, a:visited {
+      color: $text-color;
     }
 }
 

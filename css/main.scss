@@ -39,7 +39,8 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     32px;
+$small-spacing-unit: 8px;
 
 $text-color:       #464646;
 $background-color: #fff;
@@ -54,6 +55,7 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+$on-big-laptop:    1300px;
 
 
 //added variables
@@ -71,6 +73,13 @@ $quick-transition: .35s;
     @media screen and (max-width: $device) {
         @content;
     }
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
