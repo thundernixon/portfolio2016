@@ -21,6 +21,6 @@ h1, .post-title {
   top: 2px;
 }
 
-.post p, .post div {
+.post p, .post div:not(.PageNavigation) {
   margin: 0 0 6em;
 }
