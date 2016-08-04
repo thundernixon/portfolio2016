@@ -8,6 +8,7 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    z-index: 100;
 
     @media (max-width: $on-big-laptop) {
       background: #fff;
@@ -340,15 +341,16 @@ a {
 
   a {
     display: block;
-    // width: 50%;
+    border-radius: 100%;
     float: left;
-    margin: 1em 0;
-    padding: 2em 2.45em;
-    border: 1px solid #fff;
+    margin: 0em 1em;
+    padding: 1em 1.45em;
+    border: 1px solid rgba(255, 255, 255, 0);;
     transition: $quick-transition;
     &:hover {
-      border: 1px solid #f4f4f4;
-      border-radius: 100%;
+      margin: -1em 0em;
+      padding: 2em 2.45em;
+      border: 1px solid #f2f2f2;
       text-decoration: none;
       transition: $quick-transition;
     }
