@@ -3,6 +3,7 @@ layout: work
 title:  "IBM Radio"
 url: ibm-radio
 categories: work
+image: ../assets/img/jukebox_ui-listener-1@2x.png
 ---
 
 Sweet roll bear claw tootsie roll muffin chocolate bar chocolate cake. Gummies ice cream fruitcake cake danish topping lemon drops powder. Pastry sesame snaps candy canes tiramisu chocolate cake chocolate cake lollipop. Candy pie marshmallow tiramisu wafer fruitcake jelly gummi bears. Oat cake chocolate bar pudding chupa chups bear claw bear claw apple pie soufflé. Danish chupa chups liquorice chocolate cake candy canes lemon drops gingerbread donut. Marshmallow bonbon chupa chups tiramisu. Carrot cake marzipan topping muffin. Chocolate cake sesame snaps bonbon. Sugar plum cupcake dragée chocolate jujubes pudding. Pastry sugar plum ice cream croissant chocolate bar gingerbread chupa chups fruitcake oat cake. Toffee sesame snaps wafer.

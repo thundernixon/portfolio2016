@@ -3,6 +3,7 @@ layout: work
 title:  "Make Sound"
 url: make-sound
 categories: work
+image: ../assets/img/jukebox_ui-listener-1@2x.png
 ---
 
 # An interactive mural for One Thousand Birds.

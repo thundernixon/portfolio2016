@@ -2,9 +2,17 @@
 layout: about
 ---
 <div class="blog-index">
-  {% for work in site.work offset:1 limit:1 %}
-  {% endfor %}
-  <!-- {% include post_detail.html %} -->
-  {% include work_index.html %}
-  <!-- /Users/stephennixon/code/portfolio2016/_includes/work_index.html -->
+
+<!-- copy paste from stack overflow -->
+  <ul class="post-list">
+    {% for post in site.work %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
+                <img src="{{ site.baseurl }}/imagens/{{ post.image }}">
+                </a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
