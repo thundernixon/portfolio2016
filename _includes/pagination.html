@@ -1,6 +1,7 @@
 <div class="PageNavigation">
-  {% if page.next.url %}
-    <a class="prev" href="{{ site.baseurl }}{{page.next.url}}">
+
+    {% if page.previous.url %}
+    <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}">
       <svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <title>icon-left_arrow</title>
           <desc>icon: left arrow</desc>
@@ -13,8 +14,8 @@
       </svg>
     </a>
   {% endif %}
-  {% if page.previous.url %}
-    <a class="next" href="{{ site.baseurl }}{{page.previous.url}}">
+  {% if page.next.url %}
+    <a class="next" href="{{ site.baseurl }}{{page.next.url}}">
       <svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <title>icon-right_arrow</title>
         <desc>icon: right arrow</desc>
