@@ -7,14 +7,14 @@ categories: design nyc
 
 <!-- # Any tips for NYC? -->
 
+>
 Hi Stephen,
-
-Our mutual friend Alex Simpson gave me your email address. I'm moving to Brooklyn August 15 and currently looking for jobs in advertising/marketing, specifically social media, copywriting or content development. Alex mentioned that you're a graphic designer in New York and that you'd be a great contact to have. I'd really appreciate it if you could share any tips or advice you might have for making it as a creative in NYC. 
-
+>
+Our mutual friend Alex Simpson gave me your email address. I'm moving to Brooklyn August 15 and currently looking for jobs in advertising/marketing, specifically social media, copywriting or content development. Alex mentioned that you're a graphic designer in New York and that you'd be a great contact to have. I'd really appreciate it if you could share any tips or advice you might have for making it as a creative in NYC.
+>
 Thanks!
+>
 -Holly
-
-===
 
 Hi Holly,
 
