@@ -3,8 +3,13 @@ h1, .post-title {
   font-weight: normal;
 }
 
+.post-title {
+  font-weight: bold;
+}
+
 .h1 {
   font-size: 31.25px;
+  font-weight: normal;
 }
 .bold {
   font-weight: bold;
@@ -21,6 +26,11 @@ h1, .post-title {
   top: 2px;
 }
 
-.post p, .post div:not(.PageNavigation) {
+.work-post p, .post div:not(.PageNavigation) {
   margin: 0 0 6em;
+}
+
+
+li {
+    font-variant-numeric: tabular-nums;
 }

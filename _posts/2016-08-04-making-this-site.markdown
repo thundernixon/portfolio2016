@@ -8,5 +8,3 @@ categories: jekyll design
 # It was really time for an update.
 
 So I made one. Here's how:
-
-Why is this not yet working?

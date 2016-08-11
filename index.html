@@ -5,7 +5,9 @@ layout: default
 <div class="home">
 
 {% assign first_post = site.work.first %}
+{{ first_post.title }}
 {{ first_post.content }}
+<!-- {{ first_post.pagination }} -->
 <div>{% include pagination.html %}</div>
 
 
