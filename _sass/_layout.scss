@@ -35,7 +35,11 @@ Site header
             // Gaps between nav items, but not on the last one
             &:not(:last-child) {
                 margin-right: 20px;
+                @media (max-width: $on-palm) {
+                      margin-right: 0;
+                  }
             }
+
         }
     }
     @media (min-width: $on-big-laptop){
@@ -76,11 +80,7 @@ Site header
         right: 0;
       }
     }
-    @media (max-width: $on-palm) {
-        // span {
-        //   display: none;
-        // }
-      }
+
 }
 
 
