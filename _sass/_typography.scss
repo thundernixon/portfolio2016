@@ -34,3 +34,12 @@ h1, .post-title {
 li {
     font-variant-numeric: tabular-nums;
 }
+
+.small-caps {
+  font-variant: all-small-caps;
+}
+
+.midline {
+  position: relative;
+  bottom: 1px;
+}

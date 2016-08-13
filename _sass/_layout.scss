@@ -1,6 +1,6 @@
-/**
- * Site header
- */
+/*************************
+Site header
+*************************/
 .site-header {
     // border-top: 5px solid $grey-color-dark;
     // border-bottom: 1px solid $grey-color-light;
@@ -9,17 +9,6 @@
     // Positioning context for the mobile navigation icon
     position: relative;
     z-index: 100;
-
-    // @media (min-width: $on-big-laptop) {
-    //   .site-title {
-    //     margin-left: 0;
-    //     padding-left: 0;
-    //   }
-    //   .site-nav, .site-nav a {
-    //     margin-right: 0;
-    //     padding-right: 0;
-    //   }
-    // }
 
     a {
       padding: 1em 1em;
@@ -73,22 +62,24 @@
         top: 0;
         right: 2vw;
         //line-height: 1em;
-
       }
     }
     @media (max-width: $on-laptop) {
       .site-title {
         left: 0;
       }
-      .site-nav a{
+      .site-nav{
         right: 0;
         padding-right: 0;
       }
+      .site-nav a{
+        right: 0;
+      }
     }
     @media (max-width: $on-palm) {
-        span {
-          display: none;
-        }
+        // span {
+        //   display: none;
+        // }
       }
 }
 
@@ -126,26 +117,30 @@ a {
   .appear-on-hover {
     opacity: 0;
     transition: $quick-transition;
+    padding: 0 .25em;
+
+    @media (max-width: $on-laptop){
+      opacity: 1;
+    }
   }
-
-  // &:hover #icon-blog, &:hover #icon-menu, &:hover #icon-info {
-    // fill:$brand-color;
-    // transition: $quick-transition;
-  // }
-
   &:hover .appear-on-hover {
     opacity: 1;
     transition: $quick-transition;
     // color: $brand-color;
+  }
 
+}
 
+#about-link {
+  svg {
+    position: relative;
+    top: 1px;
   }
 }
 
-
-/**
- * Site footer
- */
+/*************************
+Site footer
+*************************/
 .site-footer {
     // border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
